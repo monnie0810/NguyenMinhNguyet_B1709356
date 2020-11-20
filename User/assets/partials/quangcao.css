@@ -1,0 +1,45 @@
+/* muc quang cao  */
+
+.quangcao_area {
+    margin-bottom: -10px;
+}
+
+.img_quangcao {
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    height: 60%;
+}
+
+.img_quangcao img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.img_quangcao:hover img {
+    transform: scale(1.2);
+}
+
+.quangcao_col a span {
+    color: black;
+    font-size: 22px;
+    font-weight: bolder;
+    transition: color 0.2s ease-in;
+}
+
+.quangcao_col a p {
+    font-size: 14px;
+    padding-top: 20px;
+    color: #2E2E2E;
+    font-weight: none;
+    text-decoration: none;
+}
+
+.quangcao_col a:hover span {
+    color: #8A2908
+}
+
+.quangcao_col a:hover {
+    text-decoration: none;
+}

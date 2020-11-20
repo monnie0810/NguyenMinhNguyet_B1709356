@@ -1,0 +1,121 @@
+/* duong dan trang  */
+
+.duongdan_row {
+    background-color: #F2F2F2;
+}
+
+.duongdan ul {
+    margin-bottom: 0px;
+}
+
+.duongdan ul li a {
+    text-decoration: none;
+    /* color: black; */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.duongdan ul li {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.duongdan_truoc:after {
+    content: "/";
+}
+
+.duongdan_truoc:hover span {
+    color: #FE9A2E;
+}
+
+.duongdan_hientai span {
+    color: #FE9A2E;
+}
+
+
+/* thong tin cua hang  */
+
+.content_trang {
+    margin-bottom: 30px;
+}
+
+.content_Thongtin {
+    margin-top: 40px;
+    border-bottom: 2px solid orange;
+}
+
+.content_Thongtin ul {
+    padding-left: 10px;
+}
+
+.content_Thongtin ul li {
+    line-height: 30px;
+}
+
+.content_Thongtin ul li span {
+    padding-left: 8px;
+}
+
+.content_Thongtin ul li a {
+    color: black;
+}
+
+.content_Thongtin ul li a:hover {
+    color: #B43104;
+    text-decoration: none;
+}
+
+.content_Thongtin h5 {
+    font-weight: 600;
+    color: #B45F04;
+}
+
+
+/* cau hoi thac mac  */
+
+.content_lienhe {
+    margin-top: 25px;
+}
+
+.content_lienhe h5 {
+    margin-bottom: 20px;
+    color: #B45F04;
+}
+
+.content_lienhe h5 {
+    font-weight: 600;
+}
+
+.content_lienhe input {
+    border: 1px solid #A4A4A4;
+    border-radius: 10px;
+}
+
+.content_lienhe button {
+    background-color: #FF8000;
+    color: white;
+    font-weight: 600;
+    width: 60%;
+    border: 2px solid #FF8000;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.content_lienhe button:hover {
+    background-color: white;
+    color: #FF8000;
+}
+
+.button_cauhoi {
+    text-align: center;
+}
+
+
+/* nhung ban do  */
+
+.nhung_bando {
+    margin-top: 40px;
+    /* margin-left: 10px; */
+    padding-left: 10px;
+}

@@ -1,0 +1,220 @@
+    /* image product */
+    
+    .card_sanpham {
+        margin-top: 30px;
+        margin-bottom: 80px;
+    }
+    
+    .title_cardsp span {
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    
+    .xemthem_cardsp a {
+        text-decoration: none;
+        color: #6E6E6E;
+        bottom: 3px;
+        right: 5px;
+        position: absolute;
+    }
+    
+    .xemthem_cardsp a:hover {
+        color: #FA8258;
+    }
+    
+    .thanhngang {
+        width: 150px;
+        height: 10px;
+        background-color: orangered;
+        position: absolute;
+        bottom: 7px;
+        left: 5px;
+    }
+    
+    .ele-card p {
+        font-weight: bolder;
+        font-size: 17px;
+        color: red;
+    }
+    
+    .row_sanpham {
+        float: left;
+        height: 400px;
+    }
+    
+    .ele-card {
+        border: none;
+        padding: 10px;
+    }
+    
+    .products {
+        /* height: 300px; */
+        /* width: 100px; */
+        margin: 10px;
+    }
+    
+    .title-product h3 {
+        text-align: center;
+    }
+    
+    .card-title {
+        margin-bottom: 0px;
+    }
+    
+    .div_card {
+        padding: 0px 10px;
+        border: none;
+    }
+    
+    .giagiam {
+        text-decoration: line-through;
+    }
+    
+    .bodyCard {
+        text-align: center;
+        background-color: white;
+    }
+    /* hover san pham  */
+    
+    .div_img_card {
+        padding-left: 0px;
+        padding-right: 0px;
+        position: relative;
+        transition: opacity 0.3s ease-in-out;
+        height: 300px;
+    }
+    
+    .div_img_card img {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        height: 300px;
+        width: 240px;
+    }
+    
+    .div_img_card:hover img {
+        opacity: 0.4;
+    }
+    
+    .overlay a {
+        font-size: 20px;
+        font-weight: bolder;
+        color: black;
+        position: absolute;
+        display: block;
+        visibility: hidden;
+        background-color: #FE642E;
+        border: 2px solid #FE642E;
+        border-radius: 10px;
+    }
+    
+    .overlay a:hover {
+        background-color: white;
+        border: 2px solid #FE642E;
+    }
+    
+    .icon_thanhtoan a {
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        left: 40%;
+        top: 30%;
+        vertical-align: middle;
+    }
+    
+    .icon_thanhtoan a i {
+        padding-top: 15px;
+    }
+    
+    .icon_xemthem a {
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        left: 40%;
+        top: 48%;
+    }
+    
+    .icon_xemthem a i {
+        padding-top: 15px;
+    }
+    
+    .div_img_card:hover .overlay a {
+        visibility: visible;
+    }
+    /* end hover san pham  */
+    /* giam gia sau  */
+    
+    .giamgiasau_area {
+        margin-top: 20px;
+        background-color: #FAAC58;
+        height: 540px;
+        padding-top: 20px;
+    }
+    
+    .row_giamgiasau span {
+        font-weight: inherit;
+    }
+    
+    .giamgiasau_icon a {
+        font-size: 25px;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .giamgiasau_icon {
+        margin-bottom: 5px;
+        margin-top: -9px;
+    }
+    /* muc quang cao  */
+    
+    .quangcao_area {
+        margin-bottom: -10px;
+    }
+    
+    .img_quangcao {
+        box-sizing: border-box;
+        overflow: hidden;
+        width: 100%;
+        height: 60%;
+    }
+    
+    .img_quangcao img {
+        width: 100%;
+        height: 100%;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .img_quangcao:hover img {
+        transform: scale(1.2);
+    }
+    
+    .quangcao_col a span {
+        color: black;
+        font-size: 22px;
+        font-weight: bolder;
+        transition: color 0.2s ease-in;
+    }
+    
+    .quangcao_col a p {
+        font-size: 14px;
+        padding-top: 20px;
+        color: #2E2E2E;
+        font-weight: none;
+        text-decoration: none;
+    }
+    
+    .quangcao_col a:hover span {
+        color: #8A2908
+    }
+    
+    .quangcao_col a:hover {
+        text-decoration: none;
+    }
+    
+    /
+    /* form dang nhap  */
+    
+    .alert {
+        margin-top: 0px;
+        padding-top: 5px;
+        padding-left: 30px;
+    }

@@ -1,0 +1,34 @@
+/* duong dan trang  */
+
+.duongdan_row {
+    background-color: #F2F2F2;
+}
+
+.duongdan ul {
+    margin-bottom: 0px;
+}
+
+.duongdan ul li a {
+    text-decoration: none;
+    /* color: black; */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.duongdan ul li {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.duongdan_truoc:after {
+    content: "/";
+}
+
+.duongdan_truoc:hover span {
+    color: #FE9A2E;
+}
+
+.duongdan_hientai span {
+    color: #FE9A2E;
+}

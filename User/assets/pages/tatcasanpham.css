@@ -1,0 +1,88 @@
+/* duong dan trang  */
+
+.duongdan_row {
+    background-color: #F2F2F2;
+    margin-bottom: 20px;
+}
+
+.duongdan ul {
+    margin-bottom: 0px;
+}
+
+.duongdan ul li a {
+    text-decoration: none;
+    /* color: black; */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.duongdan ul li {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.duongdan_truoc:after {
+    content: "/";
+}
+
+.duongdan_truoc:hover span {
+    color: #FE9A2E;
+}
+
+.duongdan_hientai span {
+    color: #FE9A2E;
+}
+
+
+/* bo loc san pham */
+
+.boloc_sanpham {
+    padding-left: 0px;
+    padding-right: 0px;
+    /* border: 1px solid #DF7401; */
+}
+
+.tiltle_boloc {
+    background-color: #DF7401;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.loc_giasanpham {
+    margin-bottom: 20px;
+    border: 1px solid #DF7401;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 84px;
+    width: 110%;
+}
+
+.tiltle_boloc h4 {
+    margin-bottom: 0px;
+    padding: 8px 0px;
+}
+
+.content_loc {
+    padding-left: 15px;
+}
+
+.content_loc input {
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+
+/* san pham  */
+
+.row_sanphamtatca {
+    padding-top: 0px;
+    /* width: 105%; */
+    margin-left: 15px;
+}
+
+.div_card {
+    margin-bottom: 84px;
+}
